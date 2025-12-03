@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f6f5f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#controls {
+    padding: 15px;
+    background: white;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+}
+
+#flashcards {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px #aaa;
+}
+
+.forms {
+    margin-top: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #888;
+}

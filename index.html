@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quran Vocabulary Flashcards</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <h1>Quran Vocabulary Flashcards</h1>
+</header>
+
+<section id="controls">
+    <label>Top N words per category:</label>
+    <input type="number" id="topN" value="50" min="10" max="500" />
+    <button id="loadBtn">Load</button>
+
+    <button id="studyModeBtn">Study Mode</button>
+    <button id="listModeBtn">List Mode</button>
+
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="verb">Verbs</option>
+        <option value="noun">Nouns</option>
+        <option value="particle">Particles</option>
+    </select>
+</section>
+
+<section id="flashcards"></section>
+
+<script src="app.js"></script>
+</body>
+</html>
